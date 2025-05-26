@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            BaseClass objBase;
+
+            objBase = new BaseClass();
+            objBase.Show();
+
+            objBase = new DerivedClass();
+            objBase.Show();
+
+
+            //DerivedClass objDerived = new BaseClass();
         }
     }
 }
